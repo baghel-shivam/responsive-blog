@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    
+}
+
+h2{
+    text-align: center;
+    color: white;
+    
+}
+.navbar{
+   
+    
+    display: flex;
+    width: 100vmax;
+    border-radius: 23px;
+    height: 30px;
+    height: 0px;
+}
+
+.list1{
+    list-style: none;
+    display: flex;
+
+}
+.list1 li{
+    padding: 3px 18px;
+    font-size: 1.2rem;
+
+}
+
+.list1 li a{
+    /* padding: 10px 10px; */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+
+}
+.list1 li a:hover{
+    /* padding: 10px 10px; */
+    text-decoration: none;
+    color: rgba(223, 217, 217, 0.897);
+    
+    
+
+}
+
+.searcharea{
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100vmax;
+    height: 250px;
+    margin-bottom: 20px;
+    
+}
+.searcharea::before{
+    content: "";
+    background:url("bg image.jpg") no-repeat center center/cover;
+    position: absolute;
+    width: 100vmax;
+    height:250px;
+    z-index: -1;
+    
+
+}
+
+.h2 h2{
+    width: 100vmax;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 1.9rem;
+    
+}
+.services{
+    
+    width: 100vmax;
+    
+    
+}
+
+
+#service1{
+    
+    width: 200px;
+    
+}
+#service1 img{
+    width: 165px;
+    padding-bottom: 7px;
+    height: 120px;}
+
+
+#service2{
+    width: 200px;
+}
+
+#service2 img{
+    width: 155px;
+    height: 100px;
+    padding-bottom: 7px;
+}
+
+
+
+#service3{
+    
+   width: 200px;
+
+}
+#service3 img{
+    width: auto;
+    height: 95px;
+    padding-bottom: 8px;
+}
+
+
+
+
+
+.myphoto{
+   
+    display: flex;
+}
+.myphoto img{
+    align-items: center;
+    justify-content: center;
+
+
+}
+.copy{
+    height: 25px;
+    width: 100vmax;
+    text-align: center;
+    justify-content: center;
+    background: rgba(51, 50, 50, 0.842);
+    color: white;
+
+}
